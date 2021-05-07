@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Contact</title>
+    <!-- External Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Girassol&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <!-- Internal Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="MS"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdownContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdownContent">
+                    <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a href="bio.html" class="nav-link link">My Bio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="gallery.html" class="nav-link link">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="contact.html" class="nav-link link">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>     
+    </header>
+
+    <section class="contact content">
+      <div class="container">
+        <h1 class="name">Contacts</h1>
+        <div class="row ">
+          <div class="col-lg-6">
+            <form>
+                <div class="md-3 space">
+                    <label for="fullName" class="form-label text">Full Name</label>
+                    <input type="text" class="form-control form-control-md" id="fullName">
+                </div>
+                <div class="mb-3 space">
+                    <label for="emailAd" class="form-label text">Email Address</label>
+                    <input type="email" class="form-control form-control-md" id="emailAd" aria-describedby="emailMessage">
+                    <div class="form-text" id="emailMessage">Enter your email</div>
+                </div>
+                <div class="mb-3 space">
+                    <label for="textMessage" class="form-label text">What is you want to say?</label>
+                    <textarea id="textMessage" class="form-control form-control-md"></textarea>
+                </div>
+                <div class="mb-3 space">
+                    <input type="submit" value="Send" class="btn btn-outline-primary form-control-md text">
+                </div>
+                
+            </form>
+        </div>
+          <div class="col-md-6">
+            <div class="container">
+              <div class="box">
+                <h5>Connect with me:</h5>
+                <p>For support or any inquiry: <br> Email me at <b>santosmikhaelapot267@gmail.com</b> <br> and other social media below.</p>
+              </div>
+              <div class="box">
+                <h6>Phone Number</h6>
+                <p>09205979998</p>
+              </div>
+              <div class="box">
+                <h6>Address</h6>
+                <p>Zone 5, Santa Monica, Moncada, Tarlac</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container text-center ">
+        <a href="https://www.facebook.com" class="footLink"><i class="fab fa-facebook fa-2x footer-icons"></i></a>
+        <a href="https://www.twitter.com" class="footLink"><i class="fab fa-twitter fa-2x footer-icons"></i></a>
+        <a href="https://www.instagram.com" class="footLink"><i class="fab fa-instagram fa-2x footer-icons"></i></a>
+        <p>Copyright 2021 Mikhaela Santos</p>
+      </div>
+    </footer>
+</body>
+</html>
